@@ -81,6 +81,43 @@
 	    vertical-align: middle;
 	    border: 0;
 	}
+	.sub-navi-top{
+		text-align: center;
+        color: #333;
+	}
+    .sub-navi-title{
+        font-size: 2.0em;
+        font-weight: 800;
+        text-transform: uppercase;
+        background-color: #fff;
+        margin: 10px 0 0px 0px;
+        display: block;
+        line-height: 1.1;
+        color: #6f7678;
+        position: relative;
+    }
+    .sub-navi-title:before, .sub-navi-title:after{
+        content: '';
+        background-color: #e1652f;
+        top: 50%;
+        height: 1px;
+        position: absolute;
+        width: 40%;
+        box-sizing: border-box;;
+    }
+    .sub-navi-title:before{
+        float: left;
+        left: 15px;
+    }
+    .sub-navi-title:after{
+        right: 15px;
+    }
+    .sub-navi-title-desc{
+        color:#e1652f;;
+        margin-top: 5px;
+        font-size: 15PX;
+        font-family: 'Consolas';
+    }
 	</style>
 </head>
 <body>
@@ -105,13 +142,13 @@
                 <li><a href="events.html">论坛</a></li>
             </ul>
 
-            <div class="am-topbar-right">
+            <!--<div class="am-topbar-right">
                 <button class="am-btn am-btn-default am-topbar-btn am-btn-sm"><span class="am-icon-pencil"></span>注册</button>
             </div>
 
             <div class="am-topbar-right">
                 <button class="am-btn am-btn-danger am-topbar-btn am-btn-sm"><span class="am-icon-user"></span> 登录</button>
-            </div>
+            </div>-->
         </div>
     </div>
 </header>
@@ -201,12 +238,16 @@
 
 <!--banner2-->
 <div class="am-container">
+	 <div class="sub-navi-top">
+        <h2 class="sub-navi-title">区 块 链</h2>
+        <p class="sub-navi-title-desc">How to redefine the world</p>
+     </div><!-- /.post-area-top -->
     <ul class="padding-none banner2 am-gallery am-avg-sm-2 am-avg-md-4 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
         <li>
             <div class="am-gallery-item">
-                <a href="news.html">
-                    <img src="Temp-images/tempnews.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
-                    <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
+                <a href="https://baike.baidu.com/item/%E5%8C%BA%E5%9D%97%E9%93%BE/13465666?fr=aladdin">
+                    <img src="images/sub-navi/sub-navi1-001.jpg"  alt="区块链是什么"/>
+                    <h3 class="am-gallery-title">区块链是什么</h3>
                     <div class="am-gallery-desc">2375-09-26</div>
                 </a>
             </div>
