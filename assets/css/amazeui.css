@@ -3087,7 +3087,8 @@ fieldset[disabled] .am-checkbox-inline {
   position: relative;
   min-height: 70px;
   margin-bottom: 1.6rem;
-  background: #e1652f;
+  /*background: #e1652f;8*/
+  background:#863410;
   font-size: 120%;
   font-weight: 100;
 }

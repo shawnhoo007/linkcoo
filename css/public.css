@@ -89,9 +89,9 @@ html,body{
 footer{
     background-color: #222222;
     color: #ddd;
-    padding: 50px 0;
+    padding: 10px 0;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 footer a{
     color: #ddd;
@@ -101,7 +101,7 @@ footer a:hover{
 }
 .content{
     max-width: 550px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 @media (max-width: 640px) {
     .content{
@@ -114,7 +114,7 @@ footer a:hover{
     text-align: center;
 }
 .btnlogo img{
-    width: 300px;
+    width: 150px;
 }
 .w2div{
     width: 350px;
