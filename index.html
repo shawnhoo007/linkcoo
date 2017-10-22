@@ -26,6 +26,8 @@
     <link rel="icon" type="image/png" href="images/i/favicon.png">
     <link rel="stylesheet" href="assets/css/amazeui.css">
     <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/tab-news.css">
+	<link rel="stylesheet" type="text/css" href="css/tab-navi.css">
 
     <!--[if (gte IE 9)|!(IE)]><!-->
     <script src="assets/js/jquery.min.js"></script>
@@ -40,112 +42,27 @@
     <script type="text/javascript">
 	    $(document).ready(function(){
 		     $(".am-gallery-item").mouseover(function(){
-		     	//$(this).children("a").children(".am-gallery-title").css("margin-bottom","50px");
-				$(this).children("a").children(".am-gallery-subhead").css("display","inline");
-				$(this).children("a").children(".am-gallery-subhead").fadeIn(5000);
+				$(this).children("a")..children(".am-gallery-title").css("color","#863410");
+			
 			 });
 			 $(".am-gallery-item").mouseout(function(){
-		     	$(this).children("a").children(".am-gallery-title").css("margin-bottom","00px");
-				$(this).children("a").children(".am-gallery-subhead").fadeOut(3000)
-				$(this).children("a").children(".am-gallery-subhead").css("display","none");
+		     	$(this).children("a").children("img").next().children(".am-gallery-subhead").slideUp("slow")
 			 });
 		});
     </script>
     <style>
-    .tab-content {
-	    overflow: auto;
-	    width:100%;
-	    height: :450px;
-	}
-	.tab-content .tab-pane{
-		padding:10px 0px 0px 0px;
-		background-color:transparent;
-	}
-	.item{
-		height: 80px;
-		width: 100%;
-		margin: 0 0 0px 0;
-	}
-	.pull-right{
-		padding: 0px 0 0 0px;
-		float: left;
-	    width: 70%;
-	    margin-left: 1%;
-	}
-	.pull-right h4{
-		height: 70%;
-		font-size: 1.6rem;
-	}
-	.meta{
-		margin: 10px 5px 0px 5px;
-		font-size: 1.0rem;
-	}
-	.pull-left{
-		float: left;
-	}
-	.item  figure{
-		float:left;
-		height: 40px;
-		width: 15%;
-	}
-	figure img{
-	    max-width: 100%;
-	    width: auto\9;
-	    height: auto;
-	    vertical-align: middle;
-	    border: 0;
-	}
-	.sub-navi-top{
-		text-align: center;
-        color: #333;
-	}
-    .sub-navi-title{
-        font-size: 2.0em;
-        font-weight: 800;
-        text-transform: uppercase;
-        background-color: #fff;
-        margin: 10px 0 0px 0px;
-        display: block;
-        line-height: 1.1;
-        color: #6f7678;
-        position: relative;
+    
+
+   /* .svg-wrapper{display:inline-block;border-radius:3px;}*/
+   /* #shape{stroke-width:3px;fill:transparent;stroke:#863410;stroke-dasharray:85 400;stroke-dashoffset:-150;transition:1s all ease}*/
+   /* .svg-wrapper:hover 
+    .svg-wrapper svg{
+    	height: auto;
+    	width: 100%;
     }
-    .sub-navi-title:before, .sub-navi-title:after{
-        content: '';
-        background-color: #e1652f;
-        top: 50%;
-        height: 1px;
-        position: absolute;
-        width: 40%;
-        box-sizing: border-box;;
-    }
-    .sub-navi-title:before{
-        float: left;
-        left: 15px;
-    }
-    .sub-navi-title:after{
-        right: 15px;
-    }
-    .sub-navi-title-desc{
-        color:#e1652f;;
-        margin-top: 5px;
-        font-size: 15PX;
-        font-family: 'Consolas';
-    }
-    .am-gallery-item img{
-    	border-radius: 8px;
-    	opacity: 0.8;
-    }
-   .am-gallery-item h3{
-    	border-radius: 0 0px 8px 8px;
-    	opacity: 0.8;
-		
-    }
-	.am-gallery-subhead{
-		overflow:hidden;
-		display:none;
-		margin-top:0px;
-	}
+   */
+	/*#shape{stroke-dasharray:400 0;stroke-width:3px;stroke-dashoffset:0;stroke:#863410}*/
+	
 	</style>
 </head>
 <body>
@@ -153,7 +70,8 @@
 <header class="am-topbar am-topbar-fixed-top wos-header">
     <div class="am-container">
         <h1 class="am-topbar-brand">
-            <a href="#"><img src="images/logo.png" alt=""></a>
+            <!-- <a href="#"><img src="images/logo.png" alt=""></a> -->
+			<span style="font-size:4rem;font-family: '华文彩云';color:#061f3e">链酷<span style="font-size:1.5rem;margin-left:5px;margin-bottom:0px;">ChainCoo</span></span>
         </h1>
 
         <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-warning am-show-sm-only"
@@ -164,10 +82,10 @@
 
         <div class="am-collapse am-topbar-collapse" id="collapse-head">
             <ul class="am-nav am-nav-pills am-topbar-nav">
-                <li class="am-active"><a href="#">首页</a></li>
-                <li><a href="zixun.html">资讯</a></li>
+                <li class="am-active" style=""><a href="#">区块链导航站</a></li>
+                <!-- <li><a href="zixun.html">资讯</a></li>
                 <li><a href="category.html">专栏</a></li>
-                <li><a href="events.html">论坛</a></li>
+                <li><a href="events.html">论坛</a></li> -->
             </ul>
 
             <!--<div class="am-topbar-right">
@@ -265,7 +183,7 @@
 	</div> -->
 
 <div class="tab-navi">
-<!--banner2-->
+<!--tab1-->
 	<div class="am-container">
 		 <div class="sub-navi-top">
 	        <h2 class="sub-navi-title">区 块 链</h2>
@@ -273,15 +191,16 @@
 	     </div><!-- /.post-area-top -->
 	    <ul class="padding-none banner2 am-gallery am-avg-sm-2 am-avg-md-4 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
 	        <li>
-	            <div class="am-gallery-item">
-		       
-					<a href="https://baike.baidu.com/item/%E5%8C%BA%E5%9D%97%E9%93%BE/13465666?fr=aladdin">
-						<img src="images/sub-navi/sub-navi1-001.jpg"  alt="区块链是什么"/>
-						<h3 class="am-gallery-title">区块链是什么</h3>
-						<h3 class="am-gallery-subhead">区块链是什么,从这里开始了解</h3>
-						<!--<div class="am-gallery-desc">2375-09-26</div>-->
-					</a>
-	
+	            <div class="am-gallery-item svg-wrapper">
+	            <!--  <svg  xmlns="http://www.w3.org/2000/svg">  -->
+	             		<!-- <rect id="shape"/></rect> -->
+	              		<a href="https://baike.baidu.com/item/%E5%8C%BA%E5%9D%97%E9%93%BE/13465666?fr=aladdin">
+						
+							<img src="images/sub-navi/sub-navi1-001.jpg"  alt="区块链是什么"/>
+						
+							<h3 class="am-gallery-title" >区块链是什么</h3>
+						</a>	
+				<!-- 	</svg>	 -->
 	            </div>
 	        </li>
 	        <li>
@@ -289,7 +208,7 @@
 					
 					<a href="https://baike.baidu.com/tashuo/browse/content?id=a079f3de5842ea20d7a44bfb&fr=qingtian&lemmaId=13465666">
 						<img src="images/sub-navi/sub-navi1-002.jpg"  alt="区块链带来什么变革"/>
-						<h3 class="am-gallery-title">区块链，将如何重新定义世界</h3>
+						<h3 class="am-gallery-title" >区块链，将如何重新定义世界</h3>
 						<!--<div class="am-gallery-desc">2375-09-26</div>-->
 					</a>
 						
@@ -317,11 +236,206 @@
 			    
 	            </div>
 	        </li>
+
 	    </ul>
 	</div>
 
-</div
-<!--news-->
+</div>
+<div class="tab-navi">
+<!--tab1-->
+	<div class="am-container">
+		 <div class="sub-navi-top">
+	        <h2 class="sub-navi-title">区块链浏览器</h2>
+	        <p class="sub-navi-title-desc">Bolckchian Explorer</p>
+	     </div><!-- /.post-area-top -->
+	    <ul class="padding-none banner2 am-gallery am-avg-sm-2 am-avg-md-4 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
+	        <li>
+	            <div class="am-gallery-item">
+		       
+					<a href="https://blockchair.com/">
+						<img src="images/sub-navi/sub-navi2-001.jpg"  alt="区块链是什么"/>
+						<h3 class="am-gallery-title" style="position:absolute;">blockchair</h3>
+					<!-- 	<h3 class="am-gallery-subhead" style="display:none;position:absolute;bottom:0px;">区块链是什么,从这里开始了解</h3> -->
+						<!--<div class="am-gallery-desc">2375-09-26</div>-->
+					</a>
+	
+							
+						
+	            </div>
+	        </li>
+	        <li>
+	            <div class="am-gallery-item">
+					
+					<a href="http://blockdozer.com/insight/">
+						<img src="images/sub-navi/sub-navi2-002.png"  alt="bitfinex"/>
+						<h3 class="am-gallery-title" >bolckzoder explorer</h3>
+						<!--<div class="am-gallery-desc">2375-09-26</div>-->
+					</a>
+						
+	            </div>
+	        </li>
+	        <li>
+	            <div class="am-gallery-item">
+		          
+					<a href="https://insight.is/p.com/exchanges/coinfloor/">
+						<img src="images/sub-navi//sub-navi2-003.png"  alt="Insight"/>
+						<h3 class="am-gallery-title">Insight:An open-source bitcoin blockchain API</h3>
+						<div class="am-gallery-desc">2375-09-26</div>
+					</a>
+			           
+	            </div>
+	        </li>
+	        <li>
+	            <div class="am-gallery-item">
+		          
+					<a href="https://www.bitcoincash.org/">
+						<img src="images/sub-navi//sub-navi2-004.png"  alt="HitBtc"/>
+						<h3 class="am-gallery-title">BitCoin Cash:Peer-to-Peer Electronic Cas</h3>
+						<div class="am-gallery-desc">2375-09-26</div>
+					</a>
+			    
+	            </div>
+	        </li>
+	    </ul>
+	</div>
+
+</div>
+<div class="tab-navi">
+<!--tab1-->
+	<div class="am-container">
+		
+			 <div class="sub-navi-top">
+		        <h2 class="sub-navi-title">交 易 平 台</h2>
+		        <p class="sub-navi-title-desc">bitcoin trading platform</p>
+		     </div><!-- /.post-area-top -->
+		    <ul class="padding-none banner2 am-gallery am-avg-sm-2 am-avg-md-4 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
+		        <li>
+		            <div class="am-gallery-item">
+			       
+						<a href="https://changelly.com/">
+							<img src="images/sub-navi/sub-navi3-001.jpg"  alt="区块链是什么"/>
+							<h3 class="am-gallery-title" style="position:absolute;">Changelly</h3>
+						<!-- 	<h3 class="am-gallery-subhead" style="display:none;position:absolute;bottom:0px;">区块链是什么,从这里开始了解</h3> -->
+							<!--<div class="am-gallery-desc">2375-09-26</div>-->
+						</a>
+		
+								
+							
+		            </div>
+		        </li>
+		        <li>
+		            <div class="am-gallery-item">
+						
+						<a href="https://www.bitfinex.com/">
+							<img src="images/sub-navi/sub-navi3-002.jpg"  alt="bitfinex"/>
+							<h3 class="am-gallery-title" >Bitfinex</h3>
+							<!--<div class="am-gallery-desc">2375-09-26</div>-->
+						</a>
+							
+		            </div>
+		        </li>
+		        <li>
+		            <div class="am-gallery-item">
+			          
+						<a href="https://coinmarketcap.com/exchanges/coinfloor/">
+							<img src="images/sub-navi//sub-navi3-003.jpg"  alt="Coinfloor"/>
+							<h3 class="am-gallery-title">Coinfloor</h3>
+							<div class="am-gallery-desc">2375-09-26</div>
+						</a>
+				           
+		            </div>
+		        </li>
+		        <li>
+		            <div class="am-gallery-item">
+			          
+						<a href="https://hitbtc.com/">
+							<img src="images/sub-navi//sub-navi3-004.jpg"  alt="HitBtc"/>
+							<h3 class="am-gallery-title">HitBtc</h3>
+							<div class="am-gallery-desc">2375-09-26</div>
+						</a>
+				    
+		            </div>
+		        </li>
+		    </ul>
+	  
+	</div>
+
+</div>
+<div class="tab-news">
+<!--tab1-->
+	<div class="am-container">
+		<div class="sub-navi-top">
+			<h2 class="sub-navi-title">最 新 资 讯</h2>
+			<p class="sub-navi-title-desc">Latest Informations</p>
+		</div><!-- /.post-area-top -->
+		<div class="tab-news-left" style="width:40%">
+			
+			<div class="span6 home-reviews">
+		
+			  <!-- Header -->
+				<div class="header">
+				   <div class="base">
+					<h4>informations</h4>
+					 <a href="#" title="mores" style="font-size:2rem;">more...</a>
+				   </div>
+				   <div class="arrow arrow-left"></div>
+				   <div class="arrow arrow-right"></div>
+				</div>
+			
+				<div class="tab-content" style="float:left,margin-top:20px;">
+					<div class="tab-pane active" id="tab-populars">
+				   
+						
+						<div class="item">
+						 <figure class="pull-left"><img src="images/300/5.jpg" alt="Thumbnail 1" /></figure>
+						 <div class="pull-right content">
+						  <h4><a href="single_post.html" title="View permalink Small Market and St. Sebastian's Square in Opole">Small Market and St. Sebastian's Square in Opole</a></h4>
+						  <p class="meta">349 views&nbsp;&nbsp;|&nbsp;&nbsp;49 comments</p>
+						 </div>
+						</div>
+					   
+						
+						<div class="item">
+						 <figure class="pull-left"><img src="images/300/12.jpg" alt="Thumbnail 2" /></figure>
+						 <div class="pull-right content">
+						  <h4><a href="single_post.html" title="View permalink Living Room in Italy">Living Room in Italy</a></h4>
+						  <p class="meta">283 views&nbsp;&nbsp;|&nbsp;&nbsp;42 comments</p>
+						 </div>
+						</div>
+					   
+						
+						<div class="item">
+						 <figure class="pull-left"><img src="images/300/7.jpg" alt="Thumbnail 3" /></figure>
+						 <div class="pull-right content">
+						  <h4><a href="single_post.html" title="View permalink Platform House With Minimal Design">Platform House With Minimal Design</a></h4>
+						  <p class="meta">209 views&nbsp;&nbsp;|&nbsp;&nbsp;35 comments</p>
+						 </div>
+						</div>
+					   
+						
+						<div class="item">
+						 <figure class="pull-left"><img src="images/300/4.jpg" alt="Thumbnail 4" /></figure>
+						 <div class="pull-right content">
+						  <h4><a href="single_post.html" title="View permalink Winter Kitchen With Silver Panorama">Winter Kitchen With Silver Panorama</a></h4>
+						  <p class="meta">109 views&nbsp;&nbsp;|&nbsp;&nbsp;39 comments</p>
+						 </div>
+						</div>
+					   
+					
+						<div class="item">
+						 <figure class="pull-left"><img src="images/300/9.jpg" alt="Thumbnail 5" /></figure>
+						 <div class="pull-right content">
+						  <h4><a href="single_post.html" title="View permalink Camerette - Your Time to Explore">Camerette - Your Time to Explore</a></h4>
+						  <p class="meta">90 views&nbsp;&nbsp;|&nbsp;&nbsp;22 comments</p>
+						 </div>
+						</div>
+					</div> 
+				</div> 
+			</div> 
+		</div>
+	</div>
+
+</div>
 
 <div data-am-widget="gotop" class="am-gotop am-gotop-fixed" >
     <a href="#top" title="回到顶部">

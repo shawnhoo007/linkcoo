@@ -1,0 +1,82 @@
+.tab-navi{
+    	margin-top: 20px;
+    }
+    .tab-content {
+	    overflow: auto;
+	    width:100%;
+	    height: :450px;
+	}
+	.tab-content .tab-pane{
+		padding:10px 0px 0px 0px;
+		background-color:transparent;
+	}
+	.item{
+		height: 80px;
+		width: 100%;
+		margin: 0 0 0px 0;
+	}
+	
+	.pull-left{
+		float: left;
+	}
+	.item  figure{
+		float:left;
+		height: 40px;
+		width: 15%;
+	}
+	figure img{
+	    max-width: 100%;
+	    width: auto\9;
+	    height: auto;
+	    vertical-align: middle;
+	    border: 0;
+	}
+	.sub-navi-top{
+		text-align: center;
+        color: #333;
+	}
+    .sub-navi-title{
+        font-size: 2.0em;
+        font-weight: 800;
+        text-transform: uppercase;
+        background-color: #fff;
+        margin: 10px 0 0px 0px;
+        display: block;
+        line-height: 1.1;
+        color: #300e93;
+        position: relative;
+    }
+    .sub-navi-title:before, .sub-navi-title:after{
+        content: '';
+        background-color: #4513d5;
+        top: 50%;
+        height: 1px;
+        position: absolute;
+        width: 40%;
+        box-sizing: border-box;;
+    }
+    .sub-navi-title:before{
+        float: left;
+        left: 15px;
+    }
+    .sub-navi-title:after{
+        right: 15px;
+    }
+    .sub-navi-title-desc{
+        color:#e1652f;;
+        margin-top: 5px;
+        font-size: 15PX;
+        font-family: 'Consolas';
+    }
+    .am-gallery-item img{
+    	border-radius: 8px;
+    	opacity: 0.8;
+    }
+   .am-gallery-item h3{
+    	border-radius: 0 0px 8px 8px;
+    	opacity: 0.8;
+    	color:#863410;
+    }
+    .am-gallery-title{
+
+    }

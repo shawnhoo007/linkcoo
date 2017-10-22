@@ -3088,7 +3088,7 @@ fieldset[disabled] .am-checkbox-inline {
   min-height: 70px;
   margin-bottom: 1.6rem;
   /*background: #e1652f;8*/
-  background:#863410;
+  background:#4513d5;
   font-size: 120%;
   font-weight: 100;
 }
@@ -3213,7 +3213,7 @@ fieldset[disabled] .am-checkbox-inline {
 
 
   .am-topbar-nav > li > a:after {
-    background-color: #e1652f;
+    background-color: #4513d5;
     position: absolute;
     left: 50%;
     margin-left: -7px;
