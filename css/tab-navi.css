@@ -43,12 +43,12 @@
         margin: 10px 0 0px 0px;
         display: block;
         line-height: 1.1;
-        color: #300e93;
+        color: #4a6075;
         position: relative;
     }
     .sub-navi-title:before, .sub-navi-title:after{
         content: '';
-        background-color: #4513d5;
+        background-color: #4a6075;
         top: 50%;
         height: 1px;
         position: absolute;
