@@ -1,3 +1,7 @@
+.tab-news .tab-news-left{
+	width:40%;
+}
+
 .home-reviews {
 	border:1px solid #dadada;
 	padding:70px 20px 20px 20px;
@@ -131,3 +135,27 @@
 	    vertical-align: middle;
 	    border: 0;
 	}
+
+
+	.tab-news .news-middle figure { position:relative; }
+		.tab-news .news-middle figure .cat-name {
+			position:absolute;
+			bottom:0;
+			left:-10px;
+			color:#FFF;
+			font-family:Oswald, Arial, sans-serif;
+			text-transform:uppercase;
+		}
+		.tab-news .news-middle figure .cat-name .base {
+				background-color:#f15620;
+				padding:5px 20px 5px 30px;
+				display:block;
+			}
+			.tab-news  .news-middle figure .cat-name .arrow {
+				display:block;
+				position:absolute;
+				width:0;
+			    height:0;
+			    border-right:10px solid #be3201;
+			    border-bottom:10px solid transparent;	
+			}
