@@ -55,6 +55,12 @@
 			border-left:10px solid #4a6075;
 			border-bottom:10px solid transparent;	
 		}
+		.home-reviews .tab-content h4 a{
+			white-space:nowrap;
+			overflow:hidden;
+			text-overflow:ellipsis; 
+			display:block;
+		}
 		
 	
 
@@ -140,7 +146,7 @@
 	.tab-news .news-middle figure { position:relative; }
 		.tab-news .news-middle figure .cat-name {
 			position:absolute;
-			bottom:0;
+			bottom:50px;
 			left:-10px;
 			color:#FFF;
 			font-family:Oswald, Arial, sans-serif;
