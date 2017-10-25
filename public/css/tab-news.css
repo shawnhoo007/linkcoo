@@ -1,9 +1,10 @@
 .tab-news .tab-news-left{
 	width:40%;
+	
 }
 
-.home-reviews {
-	border:1px solid #dadada;
+.tab-news  .home-reviews {
+	border:1px solid #bababa;
 	padding:70px 20px 20px 20px;
 	position:relative;
 	margin-bottom:20px;
@@ -16,7 +17,7 @@
 		right:-10px;
 	}
 		.home-reviews .header .base, .home-galleries .header .base {
-			background-color:#4a6075;
+			background-color:#2277AA;
 			padding:12px 20px 12px 30px;
 			float:left;
 			width:100%;
@@ -26,14 +27,14 @@
 				color:#FFF;
 				font-family:Oswald, Arial, sans-serif;
 				text-transform:uppercase;
-				font-size:14px;
+				font-size:15px;
 				line-height:1em;
 				margin:0px;
 			}
 			.home-reviews .header .base a, .home-galleries .header .base a {
 				float:right;
 				color:#e0e0e0;
-				font-size:12px;
+				font-size:20px;
 				font-family:Bitter, serif;
 				line-height:1em;	
 			}
@@ -47,12 +48,12 @@
 			top:100%;
 		}
 		.home-reviews .header .arrow.arrow-left, .home-galleries .header .arrow.arrow-left {
-			border-right:10px solid #4a6075;
+			border-right:10px solid #2277AA/*#4a6075*/;
 			border-bottom:10px solid transparent;	
 		}
 		.home-reviews .header .arrow.arrow-right, .home-galleries .header .arrow.arrow-right {
 			right:0;
-			border-left:10px solid #4a6075;
+			border-left:10px solid #2277AA;
 			border-bottom:10px solid transparent;	
 		}
 		.home-reviews .tab-content h4 a{
@@ -84,7 +85,7 @@
 	}
 	figure img{
 	    max-width: 100%;
-	    width: auto\9;
+	    width: auto\8;
 	    height: auto;
 	    vertical-align: middle;
 	    border: 0;
@@ -99,14 +100,20 @@
 		background-color: #f3f3f3;
 	}
 	.home-reviews .tab-content .pull-right h4{
-		height: 90%;
-		font-size: 1.2rem;
+		height: 100%;
+		font-size: 1.3rem;
 		margin-left:3%;
+		color:#2277AA;
+	}
+	.home-reviews .tab-content .pull-right h4 a{
+		color:#2277AA;
 	}
 	.home-reviews .tab-content .meta{
 		margin: 10px 5px 0px 5px;
 		font-size: 1.0rem;
 		margin-left:3%;
+		padding-bottom:5px;
+		border-bottom:1px solid #b3b3b3;
 	}
 	.home-reviews .tab-content #tab-populars{
 		width:100%;
@@ -134,7 +141,7 @@
 		height: 40px;
 		width: 22%;
 	}
-	.home-reviews figure img{
+	.home-reviews .tab-news-left .tab-content figure img{
 	    max-width: 100%;
 	    width: auto\9;
 	    height: auto;
@@ -143,7 +150,15 @@
 	}
 
 
-	.tab-news .news-middle figure { position:relative; }
+	.tab-news .am-container .news-middle figure { 
+		position:relative; 
+		width:100%;
+	}
+	.tab-news .am-container .news-middle img { 
+		position:relative; 
+		width:100%;
+		height:auto;
+	}
 		.tab-news .news-middle figure .cat-name {
 			position:absolute;
 			bottom:50px;
@@ -151,17 +166,74 @@
 			color:#FFF;
 			font-family:Oswald, Arial, sans-serif;
 			text-transform:uppercase;
+			
 		}
 		.tab-news .news-middle figure .cat-name .base {
-				background-color:#4a6075;
-				padding:5px 20px 5px 30px;
+				background-color:#2277AA;
+				padding:5px 20px 5px 15px;
 				display:block;
+				font-size:14px;
 			}
 			.tab-news  .news-middle figure .cat-name .arrow {
 				display:block;
 				position:absolute;
 				width:0;
 			    height:0;
-			    border-right:10px solid #4a6075;
+			    border-right:10px solid #2277AA;
 			    border-bottom:10px solid transparent;	
+			}
+			
+			.tab-news  .news-middle .text h2 {
+				border-left:2px solid #428bca;
+				height:23px;
+			}
+			.tab-news  .news-middle .text h2 a{
+				margin-left:8px;
+				white-space:nowrap;
+				overflow:hidden;
+				text-overflow:ellipsis; 
+				display:block;
+				font-size:1.6rem;
+			}
+			.tab-news  .news-middle .text .text-focus{
+				font-size:13px;
+				border-bottom:1px solid #a3a3a3;
+				padding-bottom:2px;
+				margin-bottom:9px;
+			}
+			
+			.tab-news  .news-middle .news-middle-bolck-list {
+				width:100%;
+				float:left;
+				height:auto;
+			}
+			.tab-news  .news-middle .news-middle-bolck-list .item {
+				width:100%;
+				float:left;
+			}
+			.tab-news  .news-middle .news-middle-bolck-list .item  figure{
+				width:25%;
+				float:left;
+			}
+			.tab-news .news-middle .news-middle-bolck-list .item .pull-left img{
+				max-width:100%;
+				width:auto\8;
+				height:auto;
+				vertical-align: middle;
+				
+			}
+			.tab-news  .news-middle .news-middle-bolck-list .item .pull-right{
+				width:65%;
+				float:left;
+				margin-left:5px;
+				font-size:1.3rem;
+			}
+			.tab-news  .news-middle .news-middle-bolck-list .item .pull-right h4{
+				white-space:nowrap;
+				overflow:hidden;
+				text-overflow:ellipsis; 
+				display:block;
+			}
+			.tab-news  .news-middle .news-middle-bolck-list .item .pull-right .meta{
+				margin-bottom:1.1rem;
 			}
