@@ -8,24 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
 
+	
     <!--360 browser -->
-    <meta name="renderer" content="webkit">
-    <meta name="author" content="wos">
+    <!--<meta name="renderer" content="webkit">-->
+    <!--<meta name="author" content="wos">-->
     <!-- Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="/images/i/app.png">
-    <!--Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
-    <link rel="apple-touch-icon-precomposed" href="/images/i/app.png">
-    <!--Win8 or 10 -->
-    <meta name="msapplication-TileImage" content="/images/i/app.png">
-    <meta name="msapplication-TileColor" content="#e1652f">
+    <!--<meta name="mobile-web-app-capable" content="yes">-->
 
-    <link rel="icon" type="image/png" href="/images/i/favicon.png">
-    <link rel="stylesheet" href="/assets/css/amazeui.css">
+    <!--Safari on iOS -->
+    <!--<meta name="apple-mobile-web-app-capable" content="yes">-->
+    <!--<meta name="apple-mobile-web-app-status-bar-style" content="black">-->
+    <!--<meta name="apple-mobile-web-app-title" content="Link Coo"/>-->
+    <!--<link rel="apple-touch-icon-precomposed" href="/images/i/ico.png">-->
+    <!--Win8 or 10 -->
+    <!--<meta name="msapplication-TileImage" content="/images/i/ico.png">-->
+    <!--<meta name="msapplication-TileColor" content="#e1652f">-->
     <link rel="stylesheet" href="/css/public.css">
+    <link rel="stylesheet" href="/css/public-index.css">
 	<link rel="stylesheet" type="text/css" href="/css/tab-navi.css">
     <link rel="stylesheet" type="text/css" href="/css/tab-news.css">
 	
@@ -34,26 +33,17 @@
     <script src="/assets/js/jquery.min.js"></script>
     <!--<![endif]-->
     <!--[if lte IE 8 ]>
-    <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-    <script src="assets/js/amazeui.ie8polyfill.min.js"></script>
     <![endif]-->
     <script src="/assets/js/amazeui.min.js"></script>
     <script src="/js/public.js"></script>
     <script type="text/javascript">
-	    $(document).ready(function(){
-		     $(".am-gallery-item").mouseover(function(){
-				$(this).children("a")..children(".am-gallery-title").css("color","#863410");
-			
-			 });
-			 $(".am-gallery-item").mouseout(function(){
-		     	$(this).children("a").children("img").next().children(".am-gallery-subhead").slideUp("slow")
-			 });
-		});
+	    
     </script>
     <style>
     
-
+		.am-topbar-nav > li > a:hover{
+		background-color:#33333;
+		}
    /* .svg-wrapper{display:inline-block;border-radius:3px;}*/
    /* #shape{stroke-width:3px;fill:transparent;stroke:#863410;stroke-dasharray:85 400;stroke-dashoffset:-150;transition:1s all ease}*/
    /* .svg-wrapper:hover 
@@ -72,7 +62,7 @@
     <div class="am-container">
         <h1 class="am-topbar-brand">
             <!-- <a href="#"><img src="images/logo.png" alt=""></a> -->
-			<span style="font-size:4rem;font-family: '华文彩云';color:#2C90CD">链酷<span style="font-size:1.5rem;margin-left:5px;margin-bottom:0px;">ChainCoo</span></span>
+			<span style="font-size:3.5rem;font-family: '微软雅黑';color:#fff">QKapps<span style="font-size:1.5rem;margin-left:5px;margin-bottom:0px;"></span></span>
         </h1>
 
         <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-warning am-show-sm-only"
@@ -83,7 +73,7 @@
 
         <div class="am-collapse am-topbar-collapse" id="collapse-head">
             <ul class="am-nav am-nav-pills am-topbar-nav">
-                <li class="am-active" ><a href="#" style="color:#2277AA">区块链导航站</a></li>
+                <li class="am-active" ><a href="#" style="color:#fff">区块链导航站</a></li>
                 <!-- <li><a href="zixun.html">资讯</a></li>
                 <li><a href="category.html">专栏</a></li>
                 <li><a href="events.html">论坛</a></li> -->
@@ -105,28 +95,33 @@
 		<div  data-am-widget="slider" class="am-slider am-slider-a1" data-am-slider='{"directionNav":false}'>
 			<ul class="am-slides">
 			  <li>
-					<img src="/images/news/top-001.png">
-					<div class="pet_slider_font">
-						
-						<span>“大白”有望成为现实：充气机器人研究取得进展</span>
-					</div>
-					<div class="pet_slider_shadow"></div>
+					<a href="#">
+						<img src="/images/news/top-001.png" > <!--1200*300 4:1-->
+						<div class="pet_slider_font" sttyle="position:absolute;bottom:20px;">  
+							<span>从一个传统金融从业者的经历看比特币和区块链，两者究竟谁更重要？</span>
+						</div>
+						<div class="pet_slider_shadow"></div>
+					</a>
 			  </li>
 			  <li>
+					<a href="#">
 					<img src="/images/news/top-002.jpg">
-					<div class="pet_slider_font">
-				
-						<span>已然魔性的雪橇犬哈士奇 —《雪地狂奔》</span>
-					</div>
-					<div class="pet_slider_shadow"></div>
+						<div class="pet_slider_font">
+					
+							<span>比特币场外交易监测报告：三家场外平台两周交易额达6.8亿元</span>
+						</div>
+						<div class="pet_slider_shadow"></div>
+					</a>
 			  </li>
 			  <li>
-					<img src="/images/news/top-003.jpg">
-					<div class="pet_slider_font">
-					
-						<span>《星际争霸2:虚空之遗》国服过审!</span>
-					</div>
-					<div class="pet_slider_shadow"></div>
+					<a href="#">
+						<img src="/images/news/top-003.jpg">
+						<div class="pet_slider_font">
+
+						<span>Qtum量子链创始人帅初出席《福布斯》30/30精英榜颁奖礼</span>
+						</div>
+						<div class="pet_slider_shadow"></div>
+					</a>
 			  </li>
 			</ul>
 		</div>
@@ -484,11 +479,11 @@
             <li><a href="#">友情链接</a></li>
         </ul>-->
         <div class="btnlogo"><img src="/images/btnlogo.png"/></div>
-        <p>链酷出品<br>© 2017  <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">
+        <p>链酷出品 © 2017<br/> </p>
         <div class="w2div">
         <ul data-am-widget="gallery" class="am-gallery am-avg-sm-2
   am-avg-md-2 am-avg-lg-2 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
-            <li class="w2">
+            <li class="w2"style="padding:10px;">
                 <div class="am-gallery-item">
                     <a href="/Temp-images/dd.jpg">
                         <img src="/Temp-images/lianku.jpg" />
@@ -496,8 +491,8 @@
                     </a>
                 </div>
             </li>
-            <li   class="w2">
-                <div class="am-gallery-item">
+            <li class="w2" style="padding:10px;">
+                <div class="am-gallery-item" >
                     <a href="/Temp-images/dd.jpg">
                         <img src="/Temp-images/chaincoo.jpg"/>
                         <h3 class="am-gallery-title" font-size="15px">服务号：ChainCoo</h3>

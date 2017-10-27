@@ -1,9 +1,18 @@
+
 .tab-top-news .am-container .am-slides .pet_slider_font{
 	padding-bottom:0px;
 }
 
 .tab-news .tab-news-left{
 	width:40%;
+}
+
+
+.tab-news .tab-news-left a:focus {
+  color: #2277AA;
+}
+.tab-news a{
+	color:#13333;
 }
 
 .tab-news  .home-reviews {
@@ -20,7 +29,7 @@
 		right:-10px;
 	}
 		.home-reviews .header .base, .home-galleries .header .base {
-			background-color:#2277AA;
+			background-color:#133333;
 			padding:12px 20px 12px 30px;
 			float:left;
 			width:100%;
@@ -41,7 +50,7 @@
 				font-family:Bitter, serif;
 				line-height:1em;	
 			}
-			.home-reviews .header .base a:hover, .home-galleries .header .base a:hover { color:#FFF; }
+			.home-reviews .header .base a:hover, .home-galleries .header .base a:hover { color:#2277AA; }
 		
 		.home-reviews .header .arrow, .home-galleries .header .arrow {
 			display:block;
@@ -51,12 +60,12 @@
 			top:100%;
 		}
 		.home-reviews .header .arrow.arrow-left, .home-galleries .header .arrow.arrow-left {
-			border-right:10px solid #2277AA/*#4a6075*/;
+			border-right:10px solid #133333/*#4a6075*/;
 			border-bottom:10px solid transparent;	
 		}
 		.home-reviews .header .arrow.arrow-right, .home-galleries .header .arrow.arrow-right {
 			right:0;
-			border-left:10px solid #2277AA;
+			border-left:10px solid #133333;
 			border-bottom:10px solid transparent;	
 		}
 		.home-reviews .tab-content h4 a{
@@ -106,10 +115,10 @@
 		height: 100%;
 		font-size: 1.3rem;
 		margin-left:3%;
-		color:#2277AA;
+		color:#133333;
 	}
 	.home-reviews .tab-content .pull-right h4 a{
-		color:#2277AA;
+		color:#133333;
 	}
 	.home-reviews .tab-content .meta{
 		margin: 10px 5px 0px 5px;
@@ -172,7 +181,7 @@
 			
 		}
 		.tab-news .news-middle figure .cat-name .base {
-				background-color:#2277AA;
+				background-color:#133333;
 				padding:5px 20px 5px 15px;
 				display:block;
 				font-size:14px;
@@ -182,12 +191,12 @@
 				position:absolute;
 				width:0;
 			    height:0;
-			    border-right:10px solid #2277AA;
+			    border-right:10px solid #133333;
 			    border-bottom:10px solid transparent;	
 			}
 			
 			.tab-news  .news-middle .text h2 {
-				border-left:2px solid #428bca;
+				border-left:2px solid #133333;
 				height:23px;
 			}
 			.tab-news  .news-middle .text h2 a{
@@ -200,7 +209,7 @@
 			}
 			.tab-news  .news-middle .text .text-focus{
 				font-size:13px;
-				border-bottom:1px solid #a3a3a3;
+				border-bottom:1px solid #133333;
 				padding-bottom:2px;
 				margin-bottom:9px;
 			}
