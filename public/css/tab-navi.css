@@ -40,7 +40,7 @@
         font-family: 'Consolas';
     }
     .am-gallery-item img{
-    	border-radius: 8px;
+    	border-radius: 5px;
     	opacity: 0.8;
     }
    .am-gallery-item h3{
@@ -48,6 +48,57 @@
     	opacity: 0.8;
     	color:#863410;
     }
-    .am-gallery-title{
 
-    }
+/* new navi style*/
+.tab-navi .am-container .item-detail{
+	border:1px solid #bababa;
+	padding:2px;
+	position:absolute;
+	height:auto;
+	border-radius: 5px;
+}
+#item-detail-hover:hover{
+	cursor: pointer;
+	box-shadow:  0 0 10px #f00/*#133333*/;
+}
+.tab-navi .am-container .item-detail .item-detail-above{
+	float:left;
+}
+.tab-navi .am-container .item-detail .item-detail-above figure{
+	float:left;
+	width:30%;
+}
+.tab-navi .am-container .item-detail .item-detail-above h3{
+	font-size:2rem;
+	font-family:'微软雅黑';
+}
+.tab-navi .am-container .item-detail .item-detail-above .item-detail-above-title{
+	width:65%;
+	float:right;
+}
+.tab-navi .am-container .item-detail .item-detail-above p{
+	font-size:1rem;
+	margin:0px;
+	padding:5px; 
+	overflow:hidden;
+	display:-webkit-box;
+	text-overflow:ellipsis;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+}
+.tab-navi .am-container .item-detail .item-detail-below{
+	float:left;
+	width:90%;
+	padding-left:5px;
+}
+.tab-navi .am-container .item-detail .item-detail-below h4{
+	float:left;
+	font-size:1rem;
+	padding:2%;
+	margin:1% 3% 4% 1%;
+	background-color:#f0f3f4;
+	border-radius: 3px;
+}
+.tab-navi .am-container .item-detail .item-detail-below a{
+	color:#5d5d5d;
+}
