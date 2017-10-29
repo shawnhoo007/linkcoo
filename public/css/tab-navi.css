@@ -53,10 +53,14 @@
 .tab-navi .am-container .item-detail{
 	border:1px solid #bababa;
 	padding:2px;
-	position:absolute;
 	height:auto;
 	border-radius: 5px;
+	width:100%;
+	box-sizing: border-box;
+    vertical-align: middle;
+	overflow:auto;
 }
+
 #item-detail-hover:hover{
 	cursor: pointer;
 	box-shadow:  0 0 10px #f00/*#133333*/;
@@ -69,8 +73,41 @@
 	width:30%;
 }
 .tab-navi .am-container .item-detail .item-detail-above figure img{
+	border-radius: 0px;
+	opacity:0.8;
+}
+/*-----logo image trun----*/
+
+.figure-box{
+	position: relative;
+
+}
+ .figure-box .fig-normal{
+	transform: rotateY(0);
+	transition: all 0.50s ease-in-out 0s;
+}
+
+.figure-box .fig-turn{
+	
+	transform: rotateY(90deg);
+	transition: all 0.50s ease-in-out 0s;
+	width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 0;
+    left: 0;
+    text-align: center;
 	
 }
+.item-detail:hover .fig-turn{
+	margin-top:0px;
+	transform: rotateY(0);
+}
+.figure-box:hover .fig-normal{
+	transform: rotateY(-90deg);
+}
+/*-----logo image trun end----*/
+
 .tab-navi .am-container .item-detail .item-detail-above h3{
 	font-size:2rem;
 	font-family:'微软雅黑';
