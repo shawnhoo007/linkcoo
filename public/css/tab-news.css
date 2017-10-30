@@ -2,6 +2,12 @@
 .tab-top-news .am-container .am-slides .pet_slider_font{
 	padding-bottom:0px;
 }
+.tab-top-news .am-container .am-slides .pet_slider_font span{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis; 
+	display:block;
+}
 
 .tab-news .tab-news-left{
 	width:40%;
