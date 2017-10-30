@@ -1,14 +1,39 @@
 
-.tab-top-news .am-container .am-slides .pet_slider_font{
+.tab-news .am-container .am-slides .pet_slider_font{
 	padding-bottom:0px;
 }
-.tab-top-news .am-container .am-slides .pet_slider_font span{
+.tab-news .am-container .am-slides img{
+	position:relative;
+}
+.tab-news .am-container .am-slides .pet_slider_font {
 	white-space:nowrap;
 	overflow:hidden;
 	text-overflow:ellipsis; 
-	display:block;
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.5);
+	color:#fff;
+    position: absolute;
+    bottom:0px;
+    left: 5px;
+    z-index: 8;
+	opacity:0.8;
+	text-align:center;
+	height:40px;
 }
-
+.tab-news  .news-middle .news-middle-bolck-list .item .pull-right1{
+	width:100%;
+	float:left;
+	margin-left:5px;
+	font-size:1.3rem;
+}
+.tab-news  .news-middle .news-middle-bolck-list .news-list h4{
+	padding:0px;
+	display: block;
+    -webkit-margin-before: 0.4em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 .tab-news .tab-news-left{
 	width:40%;
 }
@@ -171,6 +196,7 @@
 	.tab-news .am-container .news-middle figure { 
 		position:relative; 
 		width:100%;
+		margin-bottom:5px;
 	}
 	.tab-news .am-container .news-middle img { 
 		position:relative; 
@@ -204,6 +230,7 @@
 			.tab-news  .news-middle .text h2 {
 				border-left:2px solid #133333;
 				height:23px;
+				margin-bottom:5px;
 			}
 			.tab-news  .news-middle .text h2 a{
 				margin-left:8px;
@@ -214,10 +241,11 @@
 				font-size:1.6rem;
 			}
 			.tab-news  .news-middle .text .text-focus{
-				font-size:13px;
+				font-size:12px;
 				border-bottom:1px solid #133333;
 				padding-bottom:2px;
-				margin-bottom:9px;
+				margin-bottom:3px;
+				margin-top:0px;
 			}
 			
 			.tab-news  .news-middle .news-middle-bolck-list {
@@ -230,8 +258,9 @@
 				float:left;
 			}
 			.tab-news  .news-middle .news-middle-bolck-list .item  figure{
-				width:25%;
+				width:20%;
 				float:left;
+				margin-bottom:5px;
 			}
 			.tab-news .news-middle .news-middle-bolck-list .item .pull-left img{
 				max-width:100%;
@@ -241,7 +270,7 @@
 				
 			}
 			.tab-news  .news-middle .news-middle-bolck-list .item .pull-right{
-				width:65%;
+				width:75%;
 				float:left;
 				margin-left:5px;
 				font-size:1.3rem;
@@ -251,7 +280,12 @@
 				overflow:hidden;
 				text-overflow:ellipsis; 
 				display:block;
+				padding:0px;
+				margin-bottom:0.5rem;
 			}
 			.tab-news  .news-middle .news-middle-bolck-list .item .pull-right .meta{
-				margin-bottom:1.1rem;
+				margin-bottom:0rem;
+				margin-top:0.3rem;
+				padding:0px;
+				font-size:1.0rem;
 			}
