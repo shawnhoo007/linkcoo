@@ -18,7 +18,14 @@
     z-index: 8;
 	opacity:0.8;
 	text-align:center;
-	height:40px;
+	height:20px;
+}
+.tab-news .am-container .am-slides  .detail{
+	overflow:hidden;
+	display:-webkit-box;
+	text-overflow:ellipsis;
+	-webkit-line-clamp:5;
+	-webkit-box-orient:vertical;
 }
 .tab-news  .news-middle .news-middle-bolck-list .item .pull-right1{
 	width:100%;
