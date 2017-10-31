@@ -3,7 +3,7 @@
     }
     
 	.sub-navi-top{
-		text-align: center;
+		
         color: #333;
 	}
     .sub-navi-title{
@@ -14,17 +14,24 @@
         margin: 10px 0 0px 0px;
         display: block;
         line-height: 1.1;
-        color: #4a6075;
+        color: #0092d7;
         position: relative;
+		font-family: '黑体';
+		padding-left:1%;
     }
-    .sub-navi-title:before, .sub-navi-title:after{
+	.sub-navi-title span{
+		border-left:2px solid #0092d7;
+		padding-left:1%;
+	}
+    /*.sub-navi-title:before,*/ .sub-navi-title:after{
         content: '';
-        background-color: #4a6075;
+        background-color: #0092d7;
         top: 50%;
         height: 1px;
         position: absolute;
-        width: 40%;
-        box-sizing: border-box;;
+        width: 85%;
+        box-sizing: border-box;
+		
     }
     .sub-navi-title:before{
         float: left;
@@ -63,7 +70,7 @@
 
 #item-detail-hover:hover{
 	cursor: pointer;
-	box-shadow:  0 0 10px #f00/*#133333*/;
+	box-shadow:  0 0 10px #0092d7/*#133333*/;
 }
 .tab-navi .am-container .item-detail .item-detail-above{
 	float:left;

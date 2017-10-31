@@ -67,7 +67,7 @@
 		right:-10px;
 	}
 		.home-reviews .header .base, .home-galleries .header .base {
-			background-color:#133333;
+			background-color:#0092d7;
 			padding:12px 20px 12px 30px;
 			float:left;
 			width:100%;
@@ -98,12 +98,12 @@
 			top:100%;
 		}
 		.home-reviews .header .arrow.arrow-left, .home-galleries .header .arrow.arrow-left {
-			border-right:10px solid #133333/*#4a6075*/;
+			border-right:10px solid #0092d7/*#4a6075*/;
 			border-bottom:10px solid transparent;	
 		}
 		.home-reviews .header .arrow.arrow-right, .home-galleries .header .arrow.arrow-right {
 			right:0;
-			border-left:10px solid #133333;
+			border-left:10px solid #0092d7;
 			border-bottom:10px solid transparent;	
 		}
 		.home-reviews .tab-content h4 a{
@@ -220,7 +220,7 @@
 			
 		}
 		.tab-news .news-middle figure .cat-name .base {
-				background-color:#133333;
+				background-color:#0092d7;
 				padding:5px 20px 5px 15px;
 				display:block;
 				font-size:14px;
@@ -230,12 +230,12 @@
 				position:absolute;
 				width:0;
 			    height:0;
-			    border-right:10px solid #133333;
+			    border-right:10px solid #0092d7;
 			    border-bottom:10px solid transparent;	
 			}
 			
 			.tab-news  .news-middle .text h2 {
-				border-left:2px solid #133333;
+				border-left:2px solid #0092d7;
 				height:23px;
 				margin-bottom:5px;
 			}
@@ -246,6 +246,8 @@
 				text-overflow:ellipsis; 
 				display:block;
 				font-size:1.6rem;
+				color:#0092d7;
+				font-weight:500;
 			}
 			.tab-news  .news-middle .text .text-focus{
 				font-size:12px;
@@ -259,6 +261,9 @@
 				width:100%;
 				float:left;
 				height:auto;
+			}
+			.tab-news  .news-middle .news-middle-bolck-list a{
+				font-weight:500;
 			}
 			.tab-news  .news-middle .news-middle-bolck-list .item {
 				width:100%;
