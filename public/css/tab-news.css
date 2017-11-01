@@ -10,22 +10,32 @@
 	overflow:hidden;
 	text-overflow:ellipsis; 
 	width:100%;
-	background-color:rgba(0, 0, 0, 0.5);
+	background-color:rgba(0, 0, 0, 0.3);
 	color:#fff;
-    position: absolute;
+	text-align:left;
     bottom:0px;
     left: 5px;
     z-index: 8;
 	opacity:0.8;
 	text-align:center;
-	height:20px;
+	height:25px;
+}
+.tab-news .am-container .am-slides .pet_slider_font span{
+	margin-top:0px;
+	padding-left:2px;
+	float:left;
+	font-size:1.5rem;
+	color:#000;
+	vertical-align:bottom;
+	font-weight:bold;
 }
 .tab-news .am-container .am-slides  .detail{
 	overflow:hidden;
 	display:-webkit-box;
 	text-overflow:ellipsis;
-	-webkit-line-clamp:5;
+	-webkit-line-clamp:4;
 	-webkit-box-orient:vertical;
+	color:#000;
 }
 .tab-news  .news-middle .news-middle-bolck-list .item .pull-right1{
 	width:100%;
