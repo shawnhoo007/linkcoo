@@ -7,45 +7,49 @@
         color: #333;
 	}
     .sub-navi-title{
-        font-size: 2.0em;
+        font-size: 1.7em;
         font-weight: 800;
         text-transform: uppercase;
         background-color: #fff;
         margin: 10px 0 0px 0px;
         display: block;
         line-height: 1.1;
-        color: #0092d7;
+        color: #24b300;
         position: relative;
 		font-family: '黑体';
 		padding-left:1%;
     }
+	 .sub-navi-title a{
+		 float:right;
+		 font-size:1.0rem;
+	 }
 	.sub-navi-title span{
-		border-left:2px solid #0092d7;
+		border-left:2px solid #24b300;
 		padding-left:1%;
 	}
-    /*.sub-navi-title:before,*/ .sub-navi-title:after{
+    /*.sub-navi-title:before,*/ 
+	/*..sub-navi-title:after{
         content: '';
-        background-color: #0092d7;
+        background-color: #24b300;
+		margin-left:10px;
         top: 50%;
         height: 1px;
         position: absolute;
-        width: 85%;
+        width: 80%;
         box-sizing: border-box;
 		
     }
-    .sub-navi-title:before{
+    /*.sub-navi-title:before{
         float: left;
         left: 15px;
     }
-    .sub-navi-title:after{
-        right: 15px;
-    }
+  
     .sub-navi-title-desc{
         color:#e1652f;
         margin-top: 5px;
         font-size: 15PX;
         font-family: 'Consolas';
-    }
+    }*/
     .am-gallery-item img{
     	border-radius: 5px;
     	opacity: 0.8;
@@ -70,7 +74,7 @@
 
 #item-detail-hover:hover{
 	cursor: pointer;
-	box-shadow:  0 0 10px #0092d7/*#133333*/;
+	box-shadow:  0 0 10px #24b300/*#133333*/;
 }
 .tab-navi .am-container .item-detail .item-detail-above{
 	float:left;
@@ -95,7 +99,6 @@
 }
 
 .figure-box .fig-turn{
-	
 	transform: rotateY(90deg);
 	transition: all 0.50s ease-in-out 0s;
 	width: 100%;
@@ -142,8 +145,8 @@
 	float:left;
 	font-size:1rem;
 	padding:2%;
-	margin:1% 3% 4% 1%;
-	background-color: rgba(0, 146, 214, 0.2) /*#f0f3f4*/;
+	margin:1% 1% 1% 1%;
+	background-color: rgba(0, 0, 0, 0.1) /*#f0f3f4*/;
 	border-radius: 3px;
 }
 .tab-navi .am-container .item-detail .item-detail-below a{
