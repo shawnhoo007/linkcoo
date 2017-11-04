@@ -4,7 +4,9 @@ html,body{
     width: 100%;
     overflow-x: hidden;
 }
-
+a:hover{
+	color:#243b00;
+}
 .padding-none{
     padding: 0px;
 }
