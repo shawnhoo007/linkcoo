@@ -1,4 +1,55 @@
+/*
+抖动
+*/
+@keyframes news-pic-bounce {
+ 0%, 100% {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  20% {
+    -moz-transform: rotateY(30eg);
+    -ms-transform: rotateY(30eg);
+    -webkit-transform: rotateY(30eg);
+    transform: rotateY(30eg);
+  }
 
+  40% {
+    -moz-transform: rotateY(50eg);
+    -ms-transform: rotateY(50eg);
+    -webkit-transform: rotateY(50eg);
+    transform: rotateY(50eg);
+  }
+
+  60% {
+    -moz-transform: rotateY(-50deg);
+    -ms-transform: rotateY(-50deg);
+    -webkit-transform: rotateY(-50deg);
+    transform: rotateY(-50deg);
+  }
+  80% {
+    -moz-transform: rotateY(-30deg);
+    -ms-transform: rotateY(-30deg);
+    -webkit-transform: rotateY(-30deg);
+    transform: rotateY(-30deg);
+  }
+  90% {
+    -moz-transform: rotateY(-15deg);
+    -ms-transform: rotateY(-15deg);
+    -webkit-transform: rotateY(-15deg);
+    transform: rotateY(-15deg);
+  }
+  100% {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+}
+
+/*end*/
 .tab-news .am-container .am-slides .pet_slider_font{
 	padding-bottom:0px;
 }
@@ -235,6 +286,7 @@
 	}
 
 
+	
 	.tab-news .am-container .news-middle figure { 
 		position:relative; 
 		width:100%;
@@ -244,6 +296,13 @@
 		position:relative; 
 		width:100%;
 		height:auto;
+	}
+	.tab-news .am-container .news-middle:hover .news-middle-fig-top img { 
+		-webkit-animation: news-pic-bounce 0.3s alternate;
+		  -moz-animation: news-pic-bounce 0.3s alternate;
+		  -o-animation: news-pic-bounce 0.3s alternate;
+		  animation: news-pic-bounce 0.3s alternate;
+		
 	}
 		.tab-news .news-middle figure .cat-name {
 			position:absolute;

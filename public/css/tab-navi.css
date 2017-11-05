@@ -22,6 +22,14 @@
 	 .sub-navi-title a{
 		 float:right;
 		 font-size:1.0rem;
+		 color:#24b300;
+		 vertical-align:bottom;
+		 margin-bottom:0px;
+	 }
+	 .sub-navi-title a img{
+		 width:30px;
+		 padding-left:0px;
+		 
 	 }
 	.sub-navi-title span{
 		border-left:2px solid #24b300;
