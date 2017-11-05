@@ -402,3 +402,17 @@
 				padding:0px;
 				font-size:1.0rem;
 			}
+/****tab-news-detail****/
+
+.tab-news-detail .am-container .news-detail-contents{
+	margin-top:20px;
+	border:1px solid #F0f3f4;
+	box-shadow:  0 0 5px #24b300;
+}
+.tab-news-detail .am-container .news-detail-contents .crumbs-navi label img{
+	display: inline-block;
+    height: 14px;
+    vertical-align: middle;
+    margin: -2px 8px 0 8px;
+	background-image: url("images/i/cumbs-navi.jpg");
+}
