@@ -421,8 +421,13 @@
 }
 .tab-news-detail .am-container .news-detail-contents .news-titles{
 	margin: 20px 0;
-	font-size:3rem;
+	font-size:2.6rem;
 }
 .tab-news-detail .am-container .news-detail-contents .news-titles .news-info{
-	
+	font-size:1.0rem;
+	background-color:#f0f3f4;
+	padding:8px 5px 8px 5px;
+}
+.tab-news-detail .am-container .news-detail-contents .news-titles .news-info span{
+	margin:0px 10px 0px 5px;
 }
