@@ -416,3 +416,13 @@
     margin: -2px 8px 0 8px;
 	background-image: url("images/i/cumbs-navi.jpg");
 }
+.tab-news-detail .am-container .news-detail-contents .crumbs-navi span{
+	color:#24b300;
+}
+.tab-news-detail .am-container .news-detail-contents .news-titles{
+	margin: 20px 0;
+	font-size:3rem;
+}
+.tab-news-detail .am-container .news-detail-contents .news-titles .news-info{
+	
+}
