@@ -409,14 +409,18 @@
 	border:1px solid #F0f3f4;
 	box-shadow:  0 0 5px #24b300;
 }
-.tab-news-detail .am-container .news-detail-contents .crumbs-navi label img{
+.tab-news-detail .am-container  .crumbs-navi{
+	margin:20px 0px 0px 0px;
+	width:65%;
+}
+.tab-news-detail .am-container  .crumbs-navi label img{
 	display: inline-block;
     height: 14px;
     vertical-align: middle;
-    margin: -2px 8px 0 8px;
+    margin: -2px 5px 0 5px;
 	background-image: url("images/i/cumbs-navi.jpg");
 }
-.tab-news-detail .am-container .news-detail-contents .crumbs-navi span{
+.tab-news-detail .am-container .crumbs-navi span{
 	color:#24b300;
 }
 .tab-news-detail .am-container .news-detail-contents .news-titles{
@@ -424,10 +428,63 @@
 	font-size:2.6rem;
 }
 .tab-news-detail .am-container .news-detail-contents .news-titles .news-info{
-	font-size:1.0rem;
+	font-size:1.2rem;
 	background-color:#f0f3f4;
-	padding:8px 5px 8px 5px;
+	padding:8px 5px 5px 5px;
 }
 .tab-news-detail .am-container .news-detail-contents .news-titles .news-info span{
 	margin:0px 10px 0px 5px;
+}
+.tab-news-detail .am-container .news-detail-contents .news-titles .news-info .views-comments{
+	float:right;
+}
+.tab-news-detail .am-container .news-detail-contents .news-titles .news-info .views-comments img{
+	width:20px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.tab-news-detail .am-container .news-detail-contents .contents .content-info{
+	color:#9a9a9a;
+	font-size:1.3rem;
+	margin-top:20px;  
+}
+.tab-news-detail .am-container .news-detail-contents .contents .content-info div{
+	margin-top:5px;
+}
+.tab-news-detail .am-container .news-detail-contents .prev-next {
+	float:left;
+}
+.tab-news-detail .am-container .news-detail-contents .prev-next div{
+	width:48.5%;
+	font-size:1.5rem;
+	color:#666666;
+	border-left:3px solid #24b300;
+	padding-left:10px;
+}
+.tab-news-detail .am-container .news-detail-contents .prev-next a{
+	color:#666666;
+}
+.tab-news-detail .am-container .news-detail-contents .prev-next a:hover{
+	color:#24b300;
+}
+.tab-news-detail .am-container .news-detail-contents .prev-next .next{
+	float:right;
+	overflow:hidden;
+	display:-webkit-box;
+	text-overflow:ellipsis;
+	-webkit-line-clamp:1;
+	-webkit-box-orient:vertical;
+}
+.tab-news-detail .am-container .news-detail-contents .prev-next .prev{
+	float:left;
+	overflow:hidden;
+	display:-webkit-box;
+	text-overflow:ellipsis;
+	-webkit-line-clamp:1;
+	-webkit-box-orient:vertical;
+}
+.tab-news-detail .am-container .news-detail-contents .comments{
+	margin-top:20px;
+	float:left;
 }
