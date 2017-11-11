@@ -52,5 +52,8 @@ $(document).ready(function(){
         });
         $('#wos-pagination-prev-more').hide();
     });
+	
+	
+	
 });
 

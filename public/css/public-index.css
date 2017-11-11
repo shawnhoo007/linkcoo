@@ -57,11 +57,11 @@ a:hover{
     padding: 20px 0;
 }
 .face{
-    border-radius: 500px;
+    border-radius: 0px;
 }
 .right-bg{
-    padding:20px;
-    background-color: #f5f5f5;
+    padding:10px;
+	box-shadow:  0 0 5px #a4a4a4;
     margin-top: 0px;
 }
 .right-bg .am-list > li {
