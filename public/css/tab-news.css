@@ -454,6 +454,7 @@
 }
 .tab-news-detail .am-container .news-detail-contents .prev-next {
 	float:left;
+	margin-bottom:10px;
 }
 .tab-news-detail .am-container .news-detail-contents .prev-next div{
 	width:48.5%;
@@ -529,4 +530,7 @@
 	height:260px;
 	background:#fff;
 	overflow:hidden;
+}
+.tab-news-detail .am-container .news-detail-right .am-gallery-item  img{
+	opacity: 1;
 }
