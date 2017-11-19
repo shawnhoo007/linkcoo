@@ -1,0 +1,313 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<title>DAppsClub</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+	
+    <!--360 browser -->
+    <!--<meta name="renderer" content="webkit">-->
+    <!--<meta name="author" content="wos">-->
+    <!-- Android -->
+    <!--<meta name="mobile-web-app-capable" content="yes">-->
+ <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <!--Safari on iOS -->
+    <!--<meta name="apple-mobile-web-app-capable" content="yes">-->
+    <!--<meta name="apple-mobile-web-app-status-bar-style" content="black">-->
+    <!--<meta name="apple-mobile-web-app-title" content="Link Coo"/>-->
+    <!--<link rel="apple-touch-icon-precomposed" href="images/i/ico.png">-->
+    <!--Win8 or 10 -->
+    <!--<meta name="msapplication-TileImage" content="images/i/ico.png">-->
+    <!--<meta name="msapplication-TileColor" content="#e1652f">-->
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/public-index.css">
+	<link rel="stylesheet" type="text/css" href="css/tab-navi.css">
+    <link rel="stylesheet" type="text/css" href="css/tab-news.css">
+	
+	
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 8 ]>
+    <![endif]-->
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+		///news-detail.html页面新闻轮动
+		function AutoScroll(obj) {
+			$(obj).find("ul:first").animate({
+				marginTop: "-61px"
+			},
+			1000,
+			function() {
+				$(this).css({
+					marginTop: "0px"
+				}).find("li:first").appendTo(this);
+			});
+		}
+		$(document).ready(function() {
+			setInterval('AutoScroll(".list-news-wheel")', 2000)
+		});
+	</script>
+</head>
+<body>
+
+<header class="am-topbar am-topbar-fixed-top wos-header">
+    <div class="am-container">
+        <h1 class="am-topbar-brand">
+            <!-- <a href="#"><img src="images/logo.png" alt=""></a> -->
+			<span style="font-size:3rem;font-family: '微软雅黑';color:#24b300">DAppsClub<span style="font-size:1.5rem;margin-left:5px;margin-bottom:0px;"></span></span>
+        </h1>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-warning am-show-sm-only"
+                data-am-collapse="{target: '#collapse-head'}">
+            <span class="am-sr-only" >导航切换</span>
+            <span class="am-icon-bars"></span>
+        </button>
+
+        <div class="am-collapse am-topbar-collapse" id="collapse-head">
+            <ul class="am-nav am-nav-pills am-topbar-nav">
+                <li class="am-active" ><a href="#" style="color:#24b300">导航站Test</a></li>
+                <!-- <li><a href="zixun.html">资讯</a></li>
+                <li><a href="category.html">专栏</a></li>
+                <li><a href="events.html">论坛</a></li> -->
+            </ul>
+
+            <!--<div class="am-topbar-right">
+                <button class="am-btn am-btn-default am-topbar-btn am-btn-sm"><span class="am-icon-pencil"></span>注册</button>
+            </div>
+
+            <div class="am-topbar-right">
+                <button class="am-btn am-btn-danger am-topbar-btn am-btn-sm"><span class="am-icon-user"></span> 登录</button>
+            </div>-->
+        </div>
+    </div>
+</header>
+<!--banner-->
+<div class="tab-news-detail">
+<!--tab1-->
+	<div class="am-container">
+			<div class="crumbs-navi">
+				<a href="#">导航站</a><label><img src="images/i/cumbs-navi.jpg"></label>
+				<a>资讯</a><label><img src="images/i/cumbs-navi.jpg"></label>
+				<span>乌克兰拟免除加密货币征税，监管部门持开放态度，监管部门持开放态度，监管部门持开放态度</span>
+			</div>
+		<div class="am-u-sm-12 am-u-md-12 am-u-lg-8 news-detail-contents">
+			
+			<div class="news-titles">
+				<h4>乌克兰拟免除加密货币征税，监管部门持开放态度,监管部门持开放态度</h4>
+				<div class="news-info"><label>文章来源:</label><span>巴比特资讯</span><label>时间:</label><span>2017-11-11 10:23:45</span>
+					<div class="views-comments"><span><img src="images/i/views.png">100</span><span><img src="images/i/comments.png" style="width:15px;">3</span></div>
+				 </div>
+			</div>
+			<div class="contents">
+				<div class="content-detail">
+					<p>
+						<p>比特币局势对于segwit2x开发者和支持者来说似乎正在越来越糟糕。更具体来讲，我们已经看到越来越多的服务提供商最近撤回了对segwit2x的支持。尽管segwit2x主要开发者Jeff Garzik自信这次硬分叉将会成功，但是segwit2x的形势如今已经相当不妙。随着OpenBazaar和Vinny Lingham的Civic公司已经退出支持segwit2x，对这个硬分叉的支持者来说，事情突然变得不那么确定了。</p>
+						<p><img class="size-full wp-image-144729 aligncenter" alt="shutterstock_744974416" src="images/news/detail-inner.jpg" width="100%" height="300" /></p>
+						<p>&nbsp;</p>
+						<h2>segwit2x再遭重击</h2>
+						<p>&nbsp;</p>
+						<p>在过去两个月，关于segwit2x扩容提案的有效性已经引发了多次争论。在最初，大量行业参与者签署了纽约协议，最近几个月这个名单已经大幅缩水。各种公司正在撤回对这个提案的支持，这对于很多人来说并不意外。更具体而言，这个区块链的有效性已经被质疑有一段时间了。</p>
+						<p>昨天晚上，segwit2x支持者名单又失去了三个主要的支持者。著名的p2p市场软件提供商OpenBazaar对segwit2x热情不再。事实上，OpenBazaar CEO Brian Hoffman雄辩地解释了他为什么不再信任这个解决方案。他们最初之所以支持这个硬分叉是处于确保隔离见证（segwit）能够在比特币网络上能够激活。相反将社区拉的更近，这个解决方案反而造成更大的裂缝。</p>
+						<p>因此，OpenBazaar的未来已经没有政治驱动的segwit2x留有余地。这是一个很了不起的决定，比特币领域有很多著名的人物此前同样表达了相似的立场。例如Vinny Lingham就是纽约协议最初的支持者之一，不过现在他已经改变了自己的立场。这是一个非凡的转折点，尽管他的理由和Hoffman的完全不同。</p>
+						<p>通过正式与这个项目疏远，事情已经发生惊人的转变。根据Lingham所说，由于他对这个解决方案的支持，他收到了死亡威胁。这是否是真的我们无从知晓。当然，比特币世界的公众人物有时也会受到一些威胁。不过，推特上的玩闹式威胁与关系人身安全的真正威胁是完全不一样的。然而，在当今时代，任何和所有的威胁都应该认真对待。</p>
+						<p>令segwit2x处境更加糟糕的是，Bitso团队的支持立场也开始动摇。更具体来讲，该公司指出segwit2x支持率正在下降。Bitso联合创始人兼总裁Daniel Vogel认为如果segwit2x链支持率低于50%，那么不挖这条链将会是明智的。是否会有人注意到这些文字（良言？）还有待确定。显然，这项协议的主要目标尚未达成。事实上，比特币社区的分裂比以往任何时候都要严重。</p>
+						<p>最后，segwit2x的成功很大程度上取决于矿工。如果这个链不能做到有利可图，那么对其的支持将很快消失。鉴于这么多参与者在分叉之前从segwit2x抽身，目前的情况看起来不太好。此外，目前距离硬分叉还有一周时间，这个解决方案的结局令人期待，尽管事情看起来不如以前那么令人印象深刻了。</p>
+					</p>
+				</div>
+				<div class="content-info"> 
+					<div>原文链接：https://www.coindesk.com/cme-group-plans-launch-bitcoin-futures-contract</div>
+					<div>作者：Stan Higgins</div>
+					<div>编译：Kyle</div>
+					<div>稿源（译）：巴比特资讯（http://www.8btc.com/cme-group-plans-launch-bitcoin-futures-contract）</div>
+					<div>版权声明：  by  nc"  sa 作者保留权利。文章为作者独立观点，不代表巴比特立场。 </div>
+               </div>
+			</div>
+        <div class="prev-next">
+            <div class="prev">上一篇：<a href="#">深圳市将发布《深圳市扶持金融业发展若干措施》，奖励区块链、数字货币等金融创新</a></div><div class="next">下一篇：<a href="#">比原通过Howey测试，成为首个在美非证券类区块链项目</a></div>
+        </div>
+        <!--data-ds-short-name="amazeui" 多说的用户名-->
+        <div class="comments" style="display:none;">
+			<div style="border-left:4px solid #24b300;padding-left:20px;border-radius:5px">最新评论（is building）</div>
+            <table >  
+				<tr><td class="head-portrait"><img src="images/i/default-head-portrait.jpg"/></td><td class="comment-detail">你好请问你是去银行柜面转账还是网银？我都不知道怎么转账？</td></tr>  
+				<tr><td class="head-portrait"><img src="images/i/default-head-portrait.jpg"/></td><td class="comment-detail">你好请问你是去银行柜面转账还是网银？我都不知道怎么转账？</td></tr>   
+				<tr><td class="head-portrait"><img src="images/i/default-head-portrait.jpg"/></td><td class="comment-detail">你好请问你是去银行柜面转账还是网银？我都不知道怎么转账？</td></tr>  
+				<tr><td class="head-portrait"><img src="images/i/default-head-portrait.jpg"/></td><td class="comment-detail">dd你好请问你是去银行柜面转账还是网银？我都不知道怎么转账？ddd</td></tr>  
+				<tr><td class="head-portrait"><img src="images/i/default-head-portrait.jpg"/></td><td class="comment-detail">你好请问你是去银行柜面转账还是网银？我都不知道怎么转账？</td></tr>  
+			</table>  
+        </div>
+    </div>
+	
+	<!--right -->
+		<div class="am-u-sm-0 am-u-md-0 am-u-lg-4 news-detail-right">
+			
+			<div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg">
+				<div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
+					<h2 class="am-titlebar-title ">
+						相关新闻
+					</h2>
+				</div>
+				<div class="list-news-wheel">
+					<ul class="am-list am-list-news-wheel">
+						<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+							<a href="#">
+								<div class="am-u-sm-4 am-list-thumb">
+										<img src="images/news/3.jpg" class="face"/>
+								</div>
+								<div class=" am-u-sm-8 am-list-main">
+									<h3 class="am-list-right-title">1、Bitcoin Classic项目正式宣告结束，开发团队不再提供代码支持,，开发团队不再提供代码支持</h3>
+									<div class="am-list-item-text"><img src="images/news/shizhong.png">2017/11/11 20:00</div>
+								</div>
+							</a>
+						</li>
+						<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+							<a href="#">
+								<div class="am-u-sm-4 am-list-thumb">
+										<img src="images/news/4.jpg" class="face"/>
+								</div>
+								<div class=" am-u-sm-8 am-list-main">
+									<h3 class="am-list-right-title">2、比特币价格飙升, 交易所Coinbase与美国国税局的对决升级</h3>
+									<div class="am-list-item-text"><img src="images/news/shizhong.png">2017/11/11 20:00</div>
+								</div>
+							</a>
+						</li>
+						<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+							<a href="#">
+								<div class="am-u-sm-4 am-list-thumb">
+										<img src="images/news/5.jpg" class="face"/>
+								</div>
+								<div class=" am-u-sm-8 am-list-main">
+									<h3 class="am-list-right-title">3、美国财政部部长：我们正调查比特币的非法使用，目前没有公布立场的时间表</h3>
+									<div class="am-list-item-text"><img src="images/news/shizhong.png">2017/11/11 20:00</div>
+								</div>
+							</a>
+						</li>
+						<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+							<a href="#">
+								<div class="am-u-sm-4 am-list-thumb">
+										<img src="images/news/5.jpg" class="face"/>
+								</div>
+								<div class=" am-u-sm-8 am-list-main">
+									<h3 class="am-list-right-title">4、美国财政部部长：我们正调查比特币的非法使用，目前没有公布立场的时间表</h3>
+									<div class="am-list-item-text"><img src="images/news/shizhong.png">2017/11/11 20:00</div>
+								</div>
+							</a>
+						</li>
+						<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+							<a href="#">
+								<div class="am-u-sm-4 am-list-thumb">
+										<img src="images/news/6.jpg" class="face"/>
+								</div>
+								<div class=" am-u-sm-8 am-list-main">
+									<h3 class="am-list-right-title">5、美国财政部部长：我们正调查比特币的非法使用，目前没有公布立场的时间表</h3>
+									<div class="am-list-item-text"><img src="images/news/shizhong.png">2017/11/11 20:00</div>
+								</div>
+							</a>
+						</li>
+						<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+							<a href="#">
+								<div class="am-u-sm-4 am-list-thumb">
+										<img src="images/news/6.jpg" class="face"/>
+								</div>
+								<div class=" am-u-sm-8 am-list-main">
+									<h3 class="am-list-right-title">6、美国财政部部长：我们正调查比特币的非法使用，目前没有公布立场的时间表</h3>
+									<div class="am-list-item-text"><img src="images/news/shizhong.png">2017/11/11 20:00</div>
+								</div>
+							</a>
+						</li>
+						<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+							<a href="#">
+								<div class="am-u-sm-4 am-list-thumb">
+										<img src="images/news/7.jpg" class="face"/>
+								</div>
+								<div class=" am-u-sm-8 am-list-main">
+									<h3 class="am-list-right-title">7、美国财政部部长：我们正调查比特币的非法使用，目前没有公布立场的时间表</h3>
+									<div class="am-list-item-text"><img src="images/news/shizhong.png">2017/11/11 20:00</div>
+								</div>
+							</a>
+						</li>
+						<li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+							<a href="#">
+								<div class="am-u-sm-4 am-list-thumb">
+										<img src="images/news/8.jpg" class="face"/>
+								</div>
+								<div class=" am-u-sm-8 am-list-main">
+									<h3 class="am-list-right-title">8、美国财政部部长：我们正调查比特币的非法使用，目前没有公布立场的时间表</h3>
+									<div class="am-list-item-text"><img src="images/news/shizhong.png">2017/11/11 20:00</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+
+
+			<ul class="am-gallery am-avg-sm-1
+	  am-avg-md-1 am-avg-lg-1 am-gallery-default" data-am-gallery="{ pureview: true }" >
+				<li>
+					<div class="am-gallery-item">
+						<a href="#" class="">
+							<img src="temp-images/share.png"  alt="'链酷'公众号"/>
+							<h3 class="am-gallery-title"></h3>
+						</a>
+					</div>
+				</li>
+				
+			</ul>
+			
+		</div>
+    </div>
+</div>
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed" >
+    <a href="#top" title="回到顶部">
+        <span class="am-gotop-title">回到顶部</span>
+        <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+</div>
+
+<footer>
+    <div class="content">
+        <!--<ul class="am-avg-sm-5 am-avg-md-5 am-avg-lg-5 am-thumbnails">
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">加入我们</a></li>
+            <li><a href="#">合作伙伴</a></li>
+            <li><a href="#">广告及服务</a></li>
+            <li><a href="#">友情链接</a></li>
+        </ul>-->
+        <div class="btnlogo"><img src="images/btnlogo.png"/></div>
+        <p>DAppsClub © 2017<br/> </p>
+        <div class="w2div">
+        <ul data-am-widget="gallery" class="am-gallery am-avg-sm-2 am-avg-md-2 am-avg-lg-2 am-gallery-overlay" data-am-gallery="{ pureview: true }" >
+            <li class="w2" >
+                <div class="am-gallery-item">
+                    <a href="Temp-images/dd.jpg">
+                        <img src="Temp-images/lianku.jpg" />
+                        <h3 class="am-gallery-title">订阅号：链酷</h3>
+                    </a>
+                </div>
+            </li>
+            <li class="w2" >
+                <div class="am-gallery-item" >
+                    <a href="Temp-images/dd.jpg">
+                        <img src="Temp-images/chaincoo.jpg"/>
+                        <h3 class="am-gallery-title" font-size="15px">服务号：ChainCoo</h3>
+                    </a>
+                </div>
+            </li>
+        </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
